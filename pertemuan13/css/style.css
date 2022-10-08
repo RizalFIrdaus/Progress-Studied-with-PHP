@@ -1,0 +1,66 @@
+
+.container {
+	width: 90%;
+	margin:auto;
+	position:relative;
+	margin-top: 5%;
+
+}
+th {
+	background-color:lightgreen;
+}
+th {
+	font-size:20px;
+}
+
+td a {
+	text-decoration:none;
+	color : black;
+	font-weight: bolder;
+
+	
+
+}
+
+
+td a:hover {
+	font-size: 15px;
+	text-shadow: 2px 2px 2px solid black;
+	color:salmon;
+}
+.judul {
+	border : 2px solid black;
+	border-radius: 10px ; 
+	background-color: lightgreen;
+	width :500px ;
+	margin: auto;
+
+	text-align: center;
+}
+.menu li{
+	list-style: none;
+}
+.menu ul {
+	position: absolute;
+	left:550px;
+	border : 2px solid black;
+	border-radius: 10px ; 
+	background-color: lightgreen;
+	width :200px ;
+	
+	
+
+	
+}
+.menu a {
+	text-decoration:none;
+	color : black;
+	font-weight: bolder;
+	margin: 25px;
+	
+
+}
+.menu a:hover {
+	font-size: 15px;
+	
+	color:salmon;

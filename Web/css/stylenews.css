@@ -1,0 +1,267 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Responsive Design*/
+
+
+/*Responsive Design*/
+
+
+/*css reset*/
+/*font face*/
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('bebasneue_regular-webfont.woff2') format('woff2'),
+         url('bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font face*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+body {
+	font-family: 'bebas_neue_regularregular',arial,sans-serif;
+	background-image: url(../img/bg.png);
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.container {
+	
+	width:1000px;
+	margin:auto;
+	background-color:#E9E3E3;
+	position: relative;
+	margin-top: 100px;
+}
+.container-news {
+	width:1000px;
+	margin:auto;
+	background-color:#9DD427 ;
+	position: relative;
+	top: 100px;
+
+	
+}
+
+
+
+.topfooter {
+	width: 100%;
+	height: 60px;
+	margin-bottom:30px;
+	background-color: #9DD427;
+	position: fixed;
+	top:-10px;
+	opacity: .8;
+	z-index: 999;
+	display: inline;
+}
+.search  {
+	text-align: center;
+	padding:5px;
+	line-height: 60px;
+
+	
+	
+}
+
+.search button {
+	
+	
+	
+
+}
+.search button :hover {
+	color: green;
+
+}
+.search button p {
+	font-weight: bold;
+}
+
+
+
+.header {
+	padding:10px;
+
+}
+.header span {
+	color:green;
+}
+.header li {
+	display:inline-block;
+	float: right;
+	padding:10px;
+	font-weight: bold;
+	margin-right:50px; 
+
+}
+.header a {
+	color:#040000;
+}
+.header li a:hover {
+	color:white;
+}
+.header h1 {
+	position: absolute;
+	top:10px ;
+	font-weight:bold;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px black;
+	color:#85B51F;
+	left:30px;
+	letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+.main p {
+	text-indent: 10px;
+	padding-top: 30px;
+	width: 650px;
+	padding-left: 20px;
+	float: left;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+.judul h2,.judul p {
+	padding-left: 25px;
+	padding-top:20px;
+
+}
+.judul h2 {
+	font-size: 25px;
+	color:#9DD427;
+}
+.judul p {
+	font-size: 10px;
+	color:black;
+}
+
+.sidebar  {
+	width: 300px;
+	float: right;
+	margin-top: -500px;
+	position: absolute;
+	right: 0;
+	top: 610px;
+
+}
+.sidebar img {
+	float: left;
+	padding:5px;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-top: 8px;
+}
+.sidebar p {
+	margin-top:5px;
+	line-height: 25px;
+}
+.sidebar h4 {
+	font-size: 20px;
+}
+.login a{
+	color:color:#FF8400;
+}
+
+
+.footer {
+	width: 100%;
+	height:60px;
+	background-color:#9DD427 ;
+	margin-top: 30px;
+}
+.footer p {
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

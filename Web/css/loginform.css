@@ -1,0 +1,23 @@
+.form {
+	background-color:lightblue ;
+	margin:auto;
+	margin-top: 80px;
+	width: 80%;
+	height: 500px;
+	position: relative;
+	opacity: .8;
+}
+.login {
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 260px;	
+	margin:auto;
+	width: 50%;
+	height: 250px;
+	
+}
+body{
+	background-image: url(../img/wormz.png);
+	
+}
